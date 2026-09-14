@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard | NAP Ride</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="brand"><span class="brand-badge">N</span><span class="logo-word">NAP Ride</span></div>
+<nav class="menu"><a class="active" href="dashboard.html">⌂ &nbsp;Dashboard</a><a class="" href="booking.html">↗ &nbsp;Book Ride</a><a class="" href="tracking.html">◎ &nbsp;Track Ride</a><a class="" href="history.html">≡ &nbsp;Ride History</a><a class="" href="profile.html">○ &nbsp;Profile</a></nav>
+<div class="sidebar-footer">Campus mobility platform</div>
+</aside>
+<main class="main">
+<header class="app-header">
+  <button class="btn btn-ghost mobile-menu" aria-label="Open navigation">☰</button>
+  <strong>Dashboard</strong>
+  <div class="top-actions">
+    <div class="user-chip"><span class="user-dot">S</span><span>Student</span></div>
+  </div>
+</header>
+<section class="page">
+<div class="page-title"><div><h2>Good afternoon</h2><p>Plan your next campus ride.</p></div><a class="btn btn-primary" href="booking.html">Book a ride</a></div>
+<div class="stats">
+  <div class="stat"><span class="muted">Available drivers</span><div class="value">18</div><div class="trend">Across active campus routes</div></div>
+  <div class="stat"><span class="muted">Upcoming ride</span><div class="value">5 min</div><div class="trend">Estimated arrival</div></div>
+  <div class="stat"><span class="muted">Trips this month</span><div class="value">12</div><div class="trend">Completed bookings</div></div>
+  <div class="stat"><span class="muted">Transport spend</span><div class="value">₦2,600</div><div class="trend">This month</div></div>
+</div>
+<div class="grid-2">
+  <div class="card">
+    <div class="section-header"><div><h3>Quick booking</h3><p class="small">Find an available ride in seconds.</p></div></div>
+    <div class="form-row"><div class="form-group"><label>Pickup</label><select><option>Main Campus</option><option>Hostel A</option><option>Hostel B</option><option>School Gate</option></select></div><div class="form-group"><label>Destination</label><select><option>Hostel A</option><option>School Gate</option><option>Main Campus</option></select></div></div>
+    <a class="btn btn-primary" href="booking.html">View available rides</a>
+  </div>
+  <div class="card">
+    <h3>Current ride</h3>
+    <div class="driver-card" style="margin-top:14px"><div class="driver-avatar">MI</div><div><strong>Musa Ibrahim</strong><div class="small">KJA-204-TR • Tricycle</div></div><span class="badge badge-info">Arriving</span></div>
+    <div class="summary-list" style="margin-top:12px"><div class="summary-item"><span>Route</span><strong>Main Campus → Hostel A</strong></div><div class="summary-item"><span>Fare</span><strong>₦200</strong></div><div class="summary-item"><span>ETA</span><strong>5 minutes</strong></div></div>
+    <a class="btn btn-secondary" href="tracking.html" style="margin-top:16px">Track ride</a>
+  </div>
+</div>
+</section>
+</main>
+</div>
+<script src="../js/app.js"></script>
+</body>
+</html>

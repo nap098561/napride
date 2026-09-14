@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Profile | NAP Ride</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="brand"><span class="brand-badge">N</span><span class="logo-word">NAP Ride</span></div>
+<nav class="menu"><a class="" href="dashboard.html">⌂ &nbsp;Dashboard</a><a class="" href="requests.html">◉ &nbsp;Ride Requests</a><a class="" href="active-ride.html">◎ &nbsp;Active Ride</a><a class="" href="earnings.html">₦ &nbsp;Earnings</a><a class="active" href="profile.html">○ &nbsp;Profile</a></nav>
+<div class="sidebar-footer">Campus mobility platform</div>
+</aside>
+<main class="main">
+<header class="app-header">
+  <button class="btn btn-ghost mobile-menu" aria-label="Open navigation">☰</button>
+  <strong>Profile</strong>
+  <div class="top-actions">
+    <div class="user-chip"><span class="user-dot">D</span><span>Driver</span></div>
+  </div>
+</header>
+<section class="page">
+<div class="section-header"><div><h2>Driver Profile</h2><p class="muted">Manage personal and vehicle information.</p></div></div>
+<div class="profile-grid"><div class="card"><div class="avatar">DR</div><h3 style="margin-top:16px">Driver Account</h3><p>Campus transport operator</p><span class="badge badge-success">Verified</span></div><div class="card"><form><div class="form-row"><div class="form-group"><label>Full name</label><input name="fullName"></div><div class="form-group"><label>Phone number</label><input name="phone" type="tel"></div></div><div class="form-row"><div class="form-group"><label>Vehicle plate number</label><input name="plateNumber"></div><div class="form-group"><label>Vehicle type</label><select name="vehicleType"><option>Tricycle</option><option>Shuttle</option><option>Car</option></select></div></div><button class="btn btn-primary" type="submit">Save changes</button></form></div></div>
+</section>
+</main>
+</div>
+<script src="../js/app.js"></script>
+</body>
+</html>

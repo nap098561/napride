@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book Ride | NAP Ride</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="brand"><span class="brand-badge">N</span><span class="logo-word">NAP Ride</span></div>
+<nav class="menu"><a class="" href="dashboard.html">⌂ &nbsp;Dashboard</a><a class="active" href="booking.html">↗ &nbsp;Book Ride</a><a class="" href="tracking.html">◎ &nbsp;Track Ride</a><a class="" href="history.html">≡ &nbsp;Ride History</a><a class="" href="profile.html">○ &nbsp;Profile</a></nav>
+<div class="sidebar-footer">Campus mobility platform</div>
+</aside>
+<main class="main">
+<header class="app-header">
+  <button class="btn btn-ghost mobile-menu" aria-label="Open navigation">☰</button>
+  <strong>Book Ride</strong>
+  <div class="top-actions">
+    <div class="user-chip"><span class="user-dot">S</span><span>Student</span></div>
+  </div>
+</header>
+<section class="page">
+<div class="section-header"><div><h2>Book a Ride</h2><p class="muted">Select your route and choose an available driver.</p></div></div>
+<div class="card">
+  <div class="form-row">
+    <div class="form-group"><label for="pickup">Pickup point</label><select id="pickup" name="pickup"><option>Main Campus</option><option>Hostel A</option><option>Hostel B</option><option>School Gate</option></select></div>
+    <div class="form-group"><label for="destination">Destination</label><select id="destination" name="destination"><option>Hostel A</option><option>School Gate</option><option>Main Campus</option></select></div>
+  </div>
+  <div class="form-row">
+    <div class="form-group"><label for="passengers">Passengers</label><select id="passengers" name="passengers"><option>1</option><option>2</option><option>3</option></select></div>
+    <div class="form-group"><label for="payment">Payment method</label><select id="payment" name="payment"><option>Cash</option><option>Online payment</option><option>Wallet</option></select></div>
+  </div>
+  <button class="btn btn-primary" type="button">Find available rides</button>
+</div>
+
+<div class="section-header" style="margin-top:28px"><div><h3>Available rides</h3><p class="small">Drivers currently available on this route.</p></div></div>
+<div class="grid-3">
+  <div class="card"><div class="driver-card"><div class="driver-avatar">MI</div><div><strong>Musa Ibrahim</strong><div class="small">KJA-204-TR</div></div><span class="rating">★ 4.8</span></div><div class="metric-row" style="margin-top:16px"><div class="metric"><span>ETA</span><strong>5 min</strong></div><div class="metric"><span>Seats</span><strong>3</strong></div><div class="metric"><span>Fare</span><strong>₦200</strong></div></div><button class="btn btn-primary" type="button" style="margin-top:18px;width:100%">Select ride</button></div>
+  <div class="card"><div class="driver-card"><div class="driver-avatar">SB</div><div><strong>Sani Bello</strong><div class="small">ABC-112-TR</div></div><span class="rating">★ 4.6</span></div><div class="metric-row" style="margin-top:16px"><div class="metric"><span>ETA</span><strong>3 min</strong></div><div class="metric"><span>Seats</span><strong>2</strong></div><div class="metric"><span>Fare</span><strong>₦200</strong></div></div><button class="btn btn-primary" type="button" style="margin-top:18px;width:100%">Select ride</button></div>
+  <div class="card"><div class="driver-card"><div class="driver-avatar">IL</div><div><strong>Ibrahim Lawal</strong><div class="small">LAG-918-TR</div></div><span class="rating">★ 4.9</span></div><div class="metric-row" style="margin-top:16px"><div class="metric"><span>ETA</span><strong>7 min</strong></div><div class="metric"><span>Seats</span><strong>4</strong></div><div class="metric"><span>Fare</span><strong>₦250</strong></div></div><button class="btn btn-primary" type="button" style="margin-top:18px;width:100%">Select ride</button></div>
+</div>
+</section>
+</main>
+</div>
+<script src="../js/app.js"></script>
+</body>
+</html>
